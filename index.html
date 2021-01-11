@@ -3,14 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>ex-dischi-musicali</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Axios CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+        <!-- VueJs CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <!-- Google Fonts CDN -->
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <!-- Link file CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
         <header>
-            <div class="container">
+            <div class="container" id="app">
                 <img src="assets/img/logo.png" alt="logo" />
             </div>
         </header>
@@ -25,7 +29,7 @@
             </div>
         </div>
 
-
+        <!-- Link file JS -->
         <script src="assets/js/main.js" charset="utf-8"></script>
     </body>
 </html>
