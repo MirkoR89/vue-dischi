@@ -15,9 +15,9 @@
                 <img src="assets/img/logo.png" alt="logo">
             </div>
         </header>
-        <div class="cds-container container" v-for="album in albumList">
+        <div class="cds-container container">
           <!-- Disco ad esempio -->
-          <div class="cd">
+          <div class="cd" v-for="album in albumList">
             <img :src="album.poster">
             <h3>{{album.title}}</h3>
             <span class="author">{{album.author}}</span>
