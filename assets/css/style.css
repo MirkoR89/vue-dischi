@@ -13,7 +13,20 @@ body {
 .container {
     width: 1070px;
     height: 100%;
-    margin: 0 auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+  margin-bottom: 10px;
+}
+
+.container span {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 header {

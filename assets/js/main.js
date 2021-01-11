@@ -13,3 +13,5 @@ const app = new Vue({
       })
   }
 })
+
+//Creare una select con i seguenti generi: pop, rock, metal e jazz. In base a cosa scegliamo nella select vedremo i corrispondenti cd.
