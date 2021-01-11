@@ -6,9 +6,10 @@ const app = new Vue({
   mounted() {
     axios
       .get('https://flynn.boolean.careers/exercises/api/array/music')
-      .then(resp => {
-        console.log(resp.data.response);
-        this.albumList = resp.data.response
+      .then(response => {
+        //console.log(response.data.response);
+        this.albumList = response.data.response
+        console.log(this.albumList);
       })
   }
 })
